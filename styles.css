@@ -1,0 +1,45 @@
+/* Fonts Imported */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap');
+
+/* Global CSS Variables */
+
+:root {
+  /* Colors */
+  --color-green: #44FFA1;
+  --color-white: #FFFFFF;
+  --color-purple-900: #24053E;
+  --color-purple-500: #584D62;
+  --color-purple-100: #FCF8FF;
+
+  /* Typography - Font Families */
+  --font-fraunces: 'Fraunces', serif;
+  --font-manrope: 'Manrope', sans-serif;
+
+  /* Typography - Presets (one line each) */
+  --text-preset-1: 30px/100% 600 'Fraunces';
+  --text-preset-2: 56px/120% 600 'Fraunces';
+  --text-preset-3: 32px/120% 600 'Fraunces';
+  --text-preset-4: 18px/180% 400 'Manrope';
+  --text-preset-5: 18px/150% 700 'Manrope';
+
+  /* Spacing Scale */
+  --space-3700: 296px;
+  --space-2100: 168px;
+  --space-1800: 144px;
+  --space-1600: 128px;
+  --space-1400: 112px;
+  --space-1100: 88px;
+  --space-1000: 80px;
+  --space-800: 64px;
+  --space-700: 56px;
+  --space-550: 44px;
+  --space-500: 40px;
+  --space-400: 32px;
+  --space-350: 28px;
+  --space-250: 20px;
+  --space-200: 16px;
+  --space-150: 12px;
+  --space-100: 8px;
+}
+
