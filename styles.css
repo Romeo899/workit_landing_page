@@ -16,12 +16,12 @@
   --font-fraunces: 'Fraunces', serif;
   --font-manrope: 'Manrope', sans-serif;
 
-  /* Typography - Presets (one line each) */
-  --text-preset-1: 30px/100% 600 'Fraunces';
-  --text-preset-2: 56px/120% 600 'Fraunces';
-  --text-preset-3: 32px/120% 600 'Fraunces';
-  --text-preset-4: 18px/180% 400 'Manrope';
-  --text-preset-5: 18px/150% 700 'Manrope';
+  /* Typography - Presets */
+  --text-preset-1: 600 80px/100% 'Fraunces';
+  --text-preset-2: 600 56px/120% 'Fraunces';
+  --text-preset-3: 600 32px/120% 'Fraunces';
+  --text-preset-4: 400 18px/180% 'Manrope';
+  --text-preset-5: 700 18px/150% 'Manrope';
 
   /* Spacing Scale */
   --space-3700: 296px;
@@ -42,4 +42,78 @@
   --space-150: 12px;
   --space-100: 8px;
 }
+
+/* Page Styles */
+
+body, .pageContainer  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    min-width: 100vw;
+    
+}
+
+.pageContainer {
+    margin: 0 auto;    
+}
+
+
+/* Img styles */
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/* font styles */
+
+.title {
+    font-family: var(--font-fraunces);
+}
+
+/* hero styles */
+
+.heroContainer {
+    min-width: 100vw;
+    position: relative;
+    padding: var(--space-800);
+
+    background-color: var(--color-purple-900);
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainTitle {
+    font: var(--text-preset-1);
+
+    text-wrap: balance;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* styling coils */
+
+#bgPattern1 {
+    position: absolute;
+    top: 50;
+    left: 0;
+}
+
+#bgPattern2 {
+    position: absolute;
+    top: 50;
+    right: 0;
+}
+
+
 
