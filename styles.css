@@ -54,11 +54,11 @@ body, .pageContainer  {
 
 body {
     min-width: 100vw;
-    
+    padding: 0 var(--space-1600);
 }
 
 .pageContainer {
-    margin: 0 auto;    
+    
 }
 
 
@@ -78,17 +78,23 @@ img {
 /* hero styles */
 
 .heroContainer {
+    background-color: var(--color-purple-900);
+
     min-width: 100vw;
     position: relative;
     padding: var(--space-800);
 
-    background-color: var(--color-purple-900);
 }
 
 .navContainer {
+    background-color: var(--color-purple-900);
+    width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    padding: 0 var(--space-1000);
 }
 
 #mainTitle {
